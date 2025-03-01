@@ -12,7 +12,7 @@ Mango继承于Elysia，对应的配置项与Elysia一致
 :::
 
 ## 最大请求体大小
-我们可以通过在 `serve` 配置中设置 [`serve.maxRequestBodySize`](#maxrequestbodysize) 来设置最大请求体大小。
+我们可以通过在 `serve` 配置中设置 [`serve.maxRequestBodySize`](#maxRequestBodySize) 来设置最大请求体大小。
 
 ```ts
 import { Elysia } from 'elysia'
@@ -44,7 +44,7 @@ new Elysia({
 
 Elysia 扩展了 Bun 配置，支持开箱即用的 TLS，基于 BoringSSL。
 
-请参阅 [TLS 选项](#tls-options) 以获取可用配置。
+请参阅 [TLS 选项](#TSL-Options) 以获取可用配置。
 
 ## 配置
 以下是 Elysia 接受的配置：
@@ -58,7 +58,7 @@ Elysia 扩展了 Bun 配置，支持开箱即用的 TLS，基于 BoringSSL。
 实例的名称，用于调试和插件去重目的
 
 ## seed
-用于生成校验和的种子，用于 [插件去重](/essential/plugin.html#plugin-deduplication)
+用于生成校验和的种子，用于 [插件去重](https://elysiajs.com/essential/plugin#plugin-deduplication)
 
 ## detail
 用于文档生成的 OpenAPI 文档
@@ -227,7 +227,7 @@ new Elysia({
 
 如果设置为 `false`，将接受任何证书。
 
-## TLS 选项
+## TSL-Options
 此配置扩展了 [Bun TLS API](https://bun.sh/docs/api/http#tls)。
 
 ```ts
