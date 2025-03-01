@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Mango🥭",
+  base: '/mango-docs/', // 要与仓库名一致
   description: "一个基于Elysia的web框架",
   lang: 'zh-CN',
   themeConfig: {
