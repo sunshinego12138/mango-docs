@@ -13,7 +13,7 @@ title: Prisma
 import { PrismaClient } from '@prisma/client'
 import { t } from 'elysia'
 import { Autowired,Get, Post, Put, Delete, All, Option, Patch, Custom, createParameterDecorator } from '@mango/core'
-import type { Mango } from '@mango/types'
+import type { Context } from '@mango/types'
 
 class PrismaService extends PrismaClient {
   private static instance: PrismaService
@@ -42,7 +42,7 @@ export class PostController {
       title: t.String(),
     })
   })
-  async test(ctx: Mango.Context) {
+  async test(ctx: Context) {
     return await this.prisma.user.findMany()
   }
 }

@@ -5,13 +5,15 @@ title: 简介
 
 <script setup>
   import Button from '@theme/components/button.vue'
+  // <Button />
 </script>
 
-<Button />
 
+
+# 简介
 
 ## 前置准备
-:::info 环境要求
+:::tip 环境要求
 开始之前建议将`Bun`更新到最新版本
 :::
 

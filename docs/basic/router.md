@@ -20,12 +20,12 @@ Custom装饰器则是自定义请求方法，具体详见[Elysia文档](https://
 ```ts
 import { t } from 'elysia'
 import { Get, Post, Put, Delete, All, Option, Patch, Custom } from '@mango/core'
-import type { Mango } from '@mango/types'
+import type { Context } from '@mango/types'
 
 @Controller({ prefix: '/posts' })
 export class PostController {
   @Get('/:id')
-  getPost(ctx: Mango.Context) {
+  getPost(ctx: Context) {
     // 获取文章
   }
 
@@ -35,7 +35,7 @@ export class PostController {
       content: t.String()
     })
   })
-  createPost(ctx: Mango.Context) {
+  createPost(ctx: Context) {
     // 创建文章
   }
 }

@@ -32,5 +32,5 @@ MongoCore.init({
 | `controllerPath`   | `string`                                 | `modules`                    | 存放Elysia控制器的路径,会自动识别该文件夹下所有的index.ts文件中被Controller装饰的类作为控制器           |
 | `cors`             | `boolean`                                | 默认不开启                           | 是否开启cors                     |
 | `swagger`          | `ElysiaSwaggerConfig`     | 默认不开启                            | 是否启用swagger                  |
-| `logger`           | `'common' | 'fancy' | 'commontz'`      | 默认不开启                            | 是否启用日志，有三种样式选择     |
+| `logger`           | `LogesticOptions`      | 默认不开启                            | 是否启用日志，有三种样式选择     |
 | `ElysiaOption`           | `ElysiaConfig<string, false>`      | -                            | Elysia的配置     |

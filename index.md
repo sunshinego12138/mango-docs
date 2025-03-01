@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /src/start/introduction
+      link: /docs/start/introduction
     - theme: alt
       text: GitHub仓库
       link: https://github.com/your-repo

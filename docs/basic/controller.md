@@ -17,7 +17,7 @@ title:  控制器
 ## 使用案例
 ```ts
 import { Controller } from '@mango/core'
-import type { Mango } from '@mango/types'
+import type { Context } from '@mango/types'
 
 @Controller({
   name: '测试',
@@ -29,7 +29,7 @@ import type { Mango } from '@mango/types'
 })
 export class PostController {
   @Get('/')
-  hello(ctx: Mango.Context) {
+  hello(ctx: Context) {
     return 'hello'
   }
 }
