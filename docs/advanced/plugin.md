@@ -28,7 +28,7 @@ const app = MongoCore.init({
 返回的app就是一个`Elysia`实例，可以直接在这里使用Elysia的插件
 
 
-## 类型复用
+## 类型提示
 
 由于在框架内无法获取到`MongoCore.init`的类型，所以用户自己使用的插件无法使用`Context`获取到类型
 
@@ -63,9 +63,9 @@ export type Context = InferContext<typeof app>
 
 // 使用
 import { t } from 'elysia'
-import { Get, Post, Put, Delete, All, Option, Patch, Custom } from '@mango/core'
-import type { Context } from '@/index.ts' // <<< 从入口处导入Context而不是在@mango/types
-import type { Merge } from '@mango/types'
+import { Get, Post, Put, Delete, All, Option, Patch, Custom } from 'mango-core'
+import type { Context } from '@/index.ts' // <<< 从入口处导入Context而不是在mango-types
+import type { Merge } from 'mango-types'
 
 const createPostType = t.Object({
   title: t.String(),

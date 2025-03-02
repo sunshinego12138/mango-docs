@@ -8,6 +8,10 @@ title:  控制器
 ## 概述
 控制器是MVC架构的核心，使用`@Controller`装饰器定义模块化路由
 
+:::tip
+在配置了`controllerPath`后，会自动识别`controllerPath`下`index.ts`中默认导出的被`Controller`装饰器装饰的类作为控制器
+:::
+
 
 ## 参数
 :::tip
@@ -16,8 +20,8 @@ title:  控制器
 
 ## 使用案例
 ```ts
-import { Controller } from '@mango/core'
-import type { Context } from '@mango/types'
+import { Controller } from 'mango-core'
+import type { Context } from 'mango-types'
 
 @Controller({
   name: '测试',

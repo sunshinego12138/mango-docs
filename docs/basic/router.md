@@ -19,8 +19,8 @@ Custom装饰器则是自定义请求方法，具体详见[Elysia文档](https://
 
 ```ts
 import { t } from 'elysia'
-import { Get, Post, Put, Delete, All, Option, Patch, Custom } from '@mango/core'
-import type { Context } from '@mango/types'
+import { Get, Post, Put, Delete, All, Option, Patch, Custom } from 'mango-core'
+import type { Context } from 'mango-types'
 
 @Controller({ prefix: '/posts' })
 export class PostController {
@@ -71,7 +71,7 @@ export class PostController {
 ## 类型提示
 ### 类型设置
 ```ts
-import type { Mango } from '@mango/types'
+import type { Mango } from 'mango-types'
 
 
 ```

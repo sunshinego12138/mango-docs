@@ -8,7 +8,7 @@ title:  日志
 ## 开启日志
 
 ```ts
-import MongoCore from '@mango/core'
+import MongoCore from 'mango-core'
 
 MongoCore.init({
   businessPath: 'src',

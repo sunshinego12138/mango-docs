@@ -16,8 +16,8 @@ title:  装饰器
 
 ```ts
 import { t } from 'elysia'
-import { Get, Post, Put, Delete, All, Option, Patch, Custom, createParameterDecorator } from '@mango/core'
-import type { Context } from '@mango/types'
+import { Get, Post, Put, Delete, All, Option, Patch, Custom, createParameterDecorator } from 'mango-core'
+import type { Context } from 'mango-types'
 
 const Logger = (target: any, propertyKey: string, descriptor: PropertyDescriptor) => {
   const originalMethod = descriptor.value // 保存原始方法
@@ -60,8 +60,8 @@ export class PostController {
 
 ```ts
 import { t } from 'elysia'
-import { Get, Post, Put, Delete, All, Option, Patch, Custom, createParameterDecorator } from '@mango/core'
-import type { Context } from '@mango/types'
+import { Get, Post, Put, Delete, All, Option, Patch, Custom, createParameterDecorator } from 'mango-core'
+import type { Context } from 'mango-types'
 
 const Logger = createParameterDecorator(async ({query}) => {
   console.log(query)

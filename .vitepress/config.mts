@@ -2,14 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Mango🥭",
+  title: 'Mango🥭',
   base: '/mango-docs/', // 要与仓库名一致
-  description: "一个基于Elysia的web框架",
+  description: '一个基于Elysia的web框架',
   lang: 'zh-CN',
   themeConfig: {
     outline: {
       label: '大纲',
-      level: [2,6]
+      level: [2, 6]
     },
     search: {
       provider: 'local'
@@ -17,7 +17,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/docs/start/introduction' }
+      { text: '文档', link: '/docs/start/introduction' },
+      { text: '可能的错误', link: '/docs/error/index' }
     ],
 
     sidebar: [
@@ -25,7 +26,7 @@ export default defineConfig({
         text: '介绍',
         items: [
           { text: '简介', link: '/docs/start/introduction' },
-          { text: '快速开始', link: '/docs/start/quick-start' },
+          { text: '快速开始', link: '/docs/start/quick-start' }
         ]
       },
       {
@@ -34,7 +35,7 @@ export default defineConfig({
           { text: '路由', link: '/docs/basic/router' },
           { text: '控制器', link: '/docs/basic/controller' },
           { text: '类型', link: '/docs/basic/type' },
-          { text: '配置项', link: '/docs/basic/config' },
+          { text: '配置项', link: '/docs/basic/config' }
         ]
       },
       {
@@ -44,13 +45,15 @@ export default defineConfig({
           { text: '装饰器', link: '/docs/advanced/decorators' },
           { text: 'ORM', link: '/docs/advanced/prisma' },
           { text: '日志', link: '/docs/advanced/logger' },
-          { text: 'Elysia插件', link: '/docs/advanced/plugin' },
+          { text: 'Static', link: '/docs/advanced/static' },
+          { text: 'Elysia插件', link: '/docs/advanced/plugin' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/sunshinego12138/mango' },
+      { icon: 'npm', link: 'https://www.npmjs.com/package/mango-core/access' }
     ]
   }
 })

@@ -12,8 +12,8 @@ title: Prisma
 ```ts
 import { PrismaClient } from '@prisma/client'
 import { t } from 'elysia'
-import { Autowired,Get, Post, Put, Delete, All, Option, Patch, Custom, createParameterDecorator } from '@mango/core'
-import type { Context } from '@mango/types'
+import { Autowired,Get, Post, Put, Delete, All, Option, Patch, Custom, createParameterDecorator } from 'mango-core'
+import type { Context } from 'mango-types'
 
 class PrismaService extends PrismaClient {
   private static instance: PrismaService

@@ -13,8 +13,8 @@ title:  类型
 > Context，[类型与路由的参数类型一致](./router#context)
 
 ```ts
-import { Controller } from '@mango/core'
-import type { Context } from '@mango/types'
+import { Controller } from 'mango-core'
+import type { Context } from 'mango-types'
 
 @Controller({
   name: '测试',
@@ -36,8 +36,8 @@ export class PostController {
 > Context是一个类型工具可以传递类型参数
 > 可以为某个参数设置类型
 ```ts
-import { Controller } from '@mango/core'
-import type { Context } from '@mango/types'
+import { Controller } from 'mango-core'
+import type { Context } from 'mango-types'
 import { t } from 'elysia'
 
 const query = t.Object({
@@ -65,8 +65,8 @@ export class PostController {
 > Merge
 > 可以为context设置类型
 ```ts
-import { Controller } from '@mango/core'
-import type { Context, Merge } from '@mango/types'
+import { Controller } from 'mango-core'
+import type { Context, Merge } from 'mango-types'
 import { t } from 'elysia'
 
 const query = t.Object({
