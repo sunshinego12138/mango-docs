@@ -56,6 +56,9 @@ export default defineConfig({
           { text: 'ORM', link: '/docs/advanced/prisma' },
           { text: '日志', link: '/docs/advanced/logger' },
           { text: 'Static', link: '/docs/advanced/static' },
+          { text: '环境变量', link: '/docs/advanced/env' },
+          { text: '定时任务', link: '/docs/advanced/cron' },
+          { text: 'WebSocket', link: '/docs/advanced/websocket' },
           { text: 'Elysia插件', link: '/docs/advanced/plugin' }
         ]
       }
