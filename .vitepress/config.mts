@@ -18,7 +18,17 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/docs/start/introduction' },
-      { text: '可能的错误', link: '/docs/error/index' }
+      { text: '可能的错误', link: '/docs/error/index' },
+      {
+        text: '国内访问',
+        link: 'http://sunshinego.top/mango-docs',
+        target: '_blank',
+      },
+      {
+        text: '国外访问',
+        link: 'https://sunshinego12138.github.io/mango-docs',
+        target: '_blank'
+      }
     ],
 
     sidebar: [

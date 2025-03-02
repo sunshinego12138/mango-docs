@@ -14,10 +14,15 @@ title: 简介
 
 <p style="display: flex;align-items: center;gap: 4px;"><img src="https://img.shields.io/npm/dm/mango-core" alt="npm downloads"><a href="https://github.com/sunshinego12138/mango" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/sunshinego12138/mango?style=social" alt="GitHub stars"></a><a href="https://github.com/sunshinego12138/mango" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/forks/sunshinego12138/mango?style=social" alt="GitHub forks"></a></p>
 
+<p style="display: flex;align-items: center;gap: 4px;"><a href="http://sunshinego.top/mango-docs" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/%E5%9B%BD%E5%86%85%E6%96%87%E6%A1%A3-docs-ff0000?style=flat-square&amp;logo=China" alt="国内文档"></a><a href="https://sunshinego12138.github.io/mango-docs" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/%E5%A4%96%E7%BD%91%E6%96%87%E6%A1%A3-docs-007bff?style=flat-square&amp;logo=globe" alt="外网文档"></a></p>
+
+
 <!-- ![npm downloads](https://img.shields.io/npm/dm/mango-core)
 [![GitHub stars](https://img.shields.io/github/stars/sunshinego12138/mango?style=social)](https://github.com/sunshinego12138/mango)
 [![GitHub forks](https://img.shields.io/github/forks/sunshinego12138/mango?style=social)](https://github.com/sunshinego12138/mango) -->
 
+<!-- [![国内文档](https://img.shields.io/badge/国内文档-docs-ff0000?style=flat-square&logo=China)](http://sunshinego.top/mango-docs)
+[![外网文档](https://img.shields.io/badge/外网文档-docs-007bff?style=flat-square&logo=globe)](https://sunshinego12138.github.io/mango-docs) -->
 
 ## 介绍
 **Mango - 重新定义全栈开发的优雅范式**  
