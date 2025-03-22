@@ -59,6 +59,7 @@ export default defineConfig({
           { text: '环境变量', link: '/docs/advanced/env' },
           { text: '定时任务', link: '/docs/advanced/cron' },
           { text: 'WebSocket', link: '/docs/advanced/websocket' },
+          { text: '接口转发', link: '/docs/advanced/proxy' },
           { text: 'Elysia插件', link: '/docs/advanced/plugin' }
         ]
       }
